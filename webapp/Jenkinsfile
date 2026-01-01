@@ -6,7 +6,7 @@ pipeline {
         stage('Clone GitHub Repo') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/your-username/webapp.git'
+                    url: 'https://github.com/awsdevopsgp2020/git-jenkins-docker.git/webapp.git'
             }
         }
 
